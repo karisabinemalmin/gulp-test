@@ -1,3 +1,3 @@
 # gulp-test
 
-Run command npm install to download the folder node_modules
+Run command 'npm install' to download node_modules folder
