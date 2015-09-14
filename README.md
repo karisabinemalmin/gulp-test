@@ -10,9 +10,9 @@ This is me testing Gulp.
 
 
 <h3>Tasks</h3>
-	<ul>
+	<ol>
 		<li>Test</li>
-	</ul>
+	</ol>
 
 
 
