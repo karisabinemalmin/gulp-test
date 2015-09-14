@@ -16,6 +16,10 @@ gulp.task('sass', function () {
     }))
 });
 
+gulp.task('hello', function() {
+	console.log('Hello, there!')
+});
+
 gulp.task('browserSync', function() {
 	browserSync({
 		server: {

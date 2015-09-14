@@ -9,11 +9,29 @@ This is me testing Gulp.
 <pre>$ gulp</pre>
 
 <h3>Files</h3>
+	<ul>
+		<li>
+			<code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
+		</li>
+		<li>
+			<code>package.json</code>: Stores information about the project, like dependencies.
+		</li>
+	</ul>
 
-<ul>
-	<li><code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.</li>
-	<li><code>package.json</code>: Stores information about the project, like dependencies.</li>
-</ul>
+<h3>Tasks</h3>
+	
+
+	<ul>
+		<li>
+			<code>$ gulp</code> Starts Gulp and watches <code>sass</code>-folder for changes. Writes them out to <code>css/styles.css</code> if changes.
+		</li>
+
+		<li><code>$ hello</code> Says 'hello!'</li>
+		<li>Starts Gulp</li>
+		<li>Watches sass-folder for changes</li>
+	</ol>
+
+
 
 <h3>Based on</h3>
 ... the article <a href="https://css-tricks.com/gulp-for-beginners/">Gulp for beginners @ CSS-tricks</a>.
