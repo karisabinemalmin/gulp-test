@@ -18,20 +18,6 @@ This is me testing Gulp.
 		</li>
 	</ul>
 
-<h3>Tasks</h3>
-	
-
-	<ul>
-		<li>
-			<code>$ gulp</code> Starts Gulp and watches <code>sass</code>-folder for changes. Writes them out to <code>css/styles.css</code> if changes.
-		</li>
-
-		<li><code>$ hello</code> Says 'hello!'</li>
-		<li>Starts Gulp</li>
-		<li>Watches sass-folder for changes</li>
-	</ol>
-
-
 
 <h3>Based on</h3>
 ... the article <a href="https://css-tricks.com/gulp-for-beginners/">Gulp for beginners @ CSS-tricks</a>.
