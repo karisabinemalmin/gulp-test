@@ -1,6 +1,6 @@
 # Getting started
 
-This is me testing Gulp.
+This is me testing and learning Gulp.
 
 <h3>1. Download node_modules</h3>
 <pre>$ npm install</pre>
