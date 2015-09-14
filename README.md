@@ -3,10 +3,10 @@
 This is me testing Gulp.
 
 <h3>1. Download node_modules</h3>
-To download node_modules folder, run <code>$ npm install</code>.
+<pre>$ npm install</pre>
 
 <h3>2. Run default task</h3>
-Run <code>$ gulp</code>.
+<pre>$ gulp</pre>
 
 <h3>Files</h3>
 
