@@ -21,10 +21,10 @@ This is me testing Gulp.
 <h3>Tasks</h3>
 <ul>
 	<li>
-		<code>$ gulp</code> Starts Gulp and watches <code>app/scss/</code> for changes, then writes them to <code>app/css/styles.css</code>
+		<code>$ gulp</code> Starts Gulp and watches scss-folder for changes, then writes them to styles.css
 	</li>
 	<li>
-		<code>$ hello</code> Says 'hello!'
+		<code>$ gulp hello</code> Says 'hello!'
 	</li>
 </ul>
 
