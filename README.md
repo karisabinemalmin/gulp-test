@@ -8,11 +8,12 @@ This is me testing Gulp.
 <h3>2. Run default task</h3>
 <pre>$ gulp</pre>
 
-Test
+<h3>Files</h3>
 <ul>
 	<li>
-	<code>gulpfile.js</code>:
+		<code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
 	</li>
+	<li><code>package.json</code>: Stores information about the project, like dependencies.</li>
 </ul>
 
 <h3>Files</h3>
