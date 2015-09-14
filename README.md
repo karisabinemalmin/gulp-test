@@ -10,14 +10,33 @@ This is me testing Gulp.
 
 Test
 <ul>
-<li>Test</li>
+	<li>
+	<code>gulpfile.js</code>:
+	</li>
 </ul>
 
-<h3>Tasks</h3>
-	<ol>
-		<li>Test</li>
-	</ol>
+<h3>Files</h3>
+	<ul>
+		<li>
+			<code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
+		</li>
+		<li>
+			<code>package.json</code>: Stores information about the project, like dependencies.
+		</li>
+	</ul>
 
+<h3>Tasks</h3>
+	
+
+	<ul>
+		<li>
+			<code>$ gulp</code> Starts Gulp and watches <code>sass</code>-folder for changes, then writes them to <code>css/styles.css</code>.
+		</li>
+
+		<li><code>$ hello</code> Says 'hello!'</li>
+		<li>Starts Gulp</li>
+		<li>Watches sass-folder for changes</li>
+	</ol>
 
 
 <h3>Based on</h3>
