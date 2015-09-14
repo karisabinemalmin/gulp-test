@@ -1,4 +1,4 @@
-# gulp-test
+# Getting started
 
 <h2>node_modules</h2>
 To download node_modules folder, run <code>npm install</code>.
