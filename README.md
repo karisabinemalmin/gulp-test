@@ -36,6 +36,3 @@ This is me testing and learning Gulp.
 		<code>$ gulp scss-lint</code> Checks your sass for suspiciousness.
 	</li>
 </ul>
-
-<h3>Based on</h3>
-... the article <a href="https://css-tricks.com/gulp-for-beginners/">Gulp for beginners @ CSS-tricks</a>.
