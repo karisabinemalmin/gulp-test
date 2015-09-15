@@ -9,14 +9,8 @@ This is me testing and learning Gulp.
 <pre>$ gulp</pre>
 
 ## Files
-<ul>
-	<li>
-		<code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
-	</li>
-	<li>
-		<code>package.json</code>: Stores information about the project, like dependencies.
-	</li>
-</ul>
+- <code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
+- <code>package.json</code>: Stores information about the project, like dependencies.
 
 ## Tasks
 <ul>
