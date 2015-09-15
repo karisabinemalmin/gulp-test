@@ -1,12 +1,15 @@
-/////modules
+//* modules *//
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
 var useref = require('gulp-useref');
 var uglify = require('gulp-uglify');
+var zip = require('gulp-zip');
+var scsslint = require('gulp-scss-lint');
 
-/////tasks
+//* tasks *//
+
 gulp.task('sass', function () {
   return gulp.src('app/scss/*.scss') // Get source files with gulp.src
     .pipe(sass()) // Sends it through a gulp plugin
@@ -42,16 +45,16 @@ gulp.task('useref', function() {
 	.pipe(gulp.dest('dist'))
 });
 
-gulp.task('useref', function(){
-	var assets = useref.assets();
+gulp.task('zip', function () {
+	return gulp.src('**')
+		.pipe(zip('this-is-the-zip.zip'))
+		.pipe(gulp.dest('.'));
+});
 
-	return gulp.src('app/*.html')
-		.pipe(assets)
-		.pipe(uglify())
-		.pipe(assets.restore())
-		.pipe(useref())
-		.pipe(gulp.dest('dist'))
-})
+gulp.task('scss-lint', function() {
+  gulp.src('app/scss/*.scss')
+    .pipe(scsslint());
+});
 
 ///default task
 gulp.task('default', ['watch'], function () {
