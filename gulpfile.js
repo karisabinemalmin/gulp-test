@@ -1,14 +1,18 @@
 //* modules *//
 
 var gulp = require('gulp');
-var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
-var useref = require('gulp-useref');
-var uglify = require('gulp-uglify');
-var zip = require('gulp-zip');
+var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
+var uglify = require('gulp-uglify');
+var useref = require('gulp-useref');
+var zip = require('gulp-zip');
 
 //* tasks *//
+
+gulp.task('hello', function() {
+	console.log('Hello, there!')
+});
 
 gulp.task('sass', function () {
   return gulp.src('app/scss/*.scss') // Get source files with gulp.src
@@ -17,10 +21,6 @@ gulp.task('sass', function () {
     .pipe(browserSync.reload({
     	stream: true
     }))
-});
-
-gulp.task('hello', function() {
-	console.log('Hello, there!')
 });
 
 gulp.task('browserSync', function() {

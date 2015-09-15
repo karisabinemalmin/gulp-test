@@ -2,13 +2,13 @@
 
 This is me testing and learning Gulp.
 
-<h3>1. Install dependencies</h3>
+## 1. Install dependencies
 <pre>$ npm install</pre>
 
-<h3>2. Run default task</h3>
+## 2. Run default task
 <pre>$ gulp</pre>
 
-<h3>Files</h3>
+## Files
 <ul>
 	<li>
 		<code>gulpfile.js</code>: Stores all Gulp configurations, like requirements and tasks.
@@ -18,7 +18,7 @@ This is me testing and learning Gulp.
 	</li>
 </ul>
 
-<h3>Tasks</h3>
+## Tasks
 <ul>
 	<li>
 		<code>$ gulp watch</code> Watches scss-folder for changes, then writes them to styles.css.
