@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
+var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
 var uglify = require('gulp-uglify');
@@ -10,12 +11,13 @@ var zip = require('gulp-zip');
 
 //* tasks *//
 
-gulp.task('hello', function() {
+gulp.task('greeting', function() {
 	console.log('Hello, there!')
 });
 
 gulp.task('sass', function () {
-  return gulp.src('app/scss/*.scss') // Get source files with gulp.src
+  gulp.src('app/scss/*.scss') // Get source files with gulp.src
+    .pipe(plumber())
     .pipe(sass()) // Sends it through a gulp plugin
     .pipe(gulp.dest('app/css')) // Outputs the file in the destination folder
     .pipe(browserSync.reload({
